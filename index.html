@@ -17,18 +17,28 @@
   <body>
     <header class="vcenter">
       <img class="header-img" src="./assets/favicon.png" alt="JavaScript" />
-      <p>JavaScript comisión #61560 / PreEntrega 1 - Forzano Lautaro</p>
+      <p>JavaScript comisión #61560 / PreEntrega 1 - Forzano Lautaro.</p>
     </header>
     <main>
       <div class="row">
-        <div class="col-lg-6">
+        <div class="col-md-6">
           <div class="card mb-3" data-bs-theme="dark">
             <div class="card-header fw-bold vcenter">
               <div class="card-circle"></div>
               <p>Algoritmo con un condicional</p>
             </div>
             <div class="card-body">
-              <p class="card-text">hola contenido descriptivo</p>
+              <p class="card-text mb-3">
+                Primero da una alerta de advertencia, luego ingresas tu nombre,
+                le pide verificar la edad al usuario y en base a eso determina
+                el ingreso al sitio.
+              </p>
+              <button type="button" class="btn btn-success" id="c1">
+                Ejecutar
+              </button>
+              <button type="button" class="btn btn-primary" id="jscode">
+                Ver Código
+              </button>
             </div>
           </div>
 
@@ -38,7 +48,11 @@
               <p>Algoritmo utilizando un ciclo</p>
             </div>
             <div class="card-body">
-              <p class="card-text">hola contenido descriptivo</p>
+              <p class="card-text mb-3">hola contenido descriptivo</p>
+              <button type="button" class="btn btn-success" id="c2">
+                Ejecutar
+              </button>
+              <button type="button" class="btn btn-primary">Ver Código</button>
             </div>
           </div>
 
@@ -52,10 +66,14 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-6">
+        <div class="col-md-6">
           <div class="card card-console">
-            <p>- console.log();</p>
+            <div class="d-flex justify-content-between">
+              <p>- consola</p>
+              <p onclick="limpiarConsola()" style="cursor: pointer">(vaciar)</p>
+            </div>
             <hr />
+            <div id="consoleOutput"></div>
           </div>
         </div>
       </div>
