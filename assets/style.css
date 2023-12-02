@@ -9,6 +9,11 @@ p {
   margin: 0;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
 .vcenter {
   display: flex;
   align-items: center;
@@ -38,7 +43,7 @@ header .header-img {
 }
 
 main {
-  padding: 15px;
+  padding: 0 15px;
 }
 
 .card-circle {
@@ -53,7 +58,18 @@ main {
 .card-console {
   background-color: black;
   color: green;
-  height: 97.5%;
+  height: 100%;
   padding: 15px;
   border: 1px solid #424549;
+}
+
+footer {
+  background-color: #272b2f;
+  padding: 5px;
+  height: auto;
+  width: 100%;
+  border-top: 1px solid #424549;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
