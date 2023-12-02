@@ -6,9 +6,11 @@ document.getElementById("c1").addEventListener("click", function () {
   const nombre = prompt("Ingrese su nombre.");
   const edad = parseInt(prompt("Ingrese su edad en números."));
   if (edad >= 18) {
-    console.log("Hola " + nombre + ", podés ingresar.");
+    console.log(nombre + " es mayor, puede ingresar al sitio.");
+    alert("Hola " + nombre + ", podés ingresar.");
   } else {
-    console.log("Lo sentimos " + nombre + ", no tenes permitido el ingreso.");
+    console.log(nombre + " es menor, no tiene permitido el acceso al sitio.");
+    alert("Lo sentimos " + nombre + ", no tenes permitido el ingreso.");
   }
 });
 

@@ -50,9 +50,10 @@ function confirmDownload() {
 
   if (confirmation) {
     downloadFile();
-    console.log("Archivo script.js descargado con éxito.");
+    console.log("Archivo script.js descargado.");
+    alert("Descarga realizada con éxito.");
   } else {
-    console.log("Descarga cancelada por el usaurio.");
-    alert("Descarga cancelada por el usuario.");
+    console.log("Descarga cancelada por el usuario.");
+    alert("Descarga cancelada con éxito.");
   }
 }
