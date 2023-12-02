@@ -30,8 +30,8 @@
             <div class="card-body">
               <p class="card-text mb-3">
                 Primero da una alerta de advertencia, luego ingresas tu nombre,
-                le pide verificar la edad al usuario y en base a eso determina
-                el ingreso al sitio.
+                te pide verificar tu edad y en base a eso determina el ingreso
+                al sitio.
               </p>
               <button type="button" class="btn btn-success" id="c1">
                 Ejecutar
@@ -64,20 +64,38 @@
               </button>
             </div>
           </div>
+          <div class="d-flex justify-content-between mt-3">
+            <button
+              type="button"
+              class="btn btn-primary me-1"
+              style="width: 70%"
+              id="jscode"
+            >
+              Ver código
+            </button>
+            <button
+              onclick="confirmDownload()"
+              type="button"
+              class="btn btn-warning text-white"
+              style="width: 30%"
+            >
+              Descargar
+            </button>
+          </div>
           <button
             type="button"
-            class="btn btn-primary my-3"
+            class="btn btn-danger mt-1 mb-3"
             style="width: 100%"
-            id="jscode"
+            id="jsgptcode"
           >
-            Ver código completo
+            Ver código utilizado hecho con ChatGPT 3.5
           </button>
         </div>
         <div class="col-md-6 mb-3">
           <div class="card card-console">
             <div class="d-flex justify-content-between">
               <p>- consola</p>
-              <p onclick="limpiarConsola()" style="cursor: pointer">(vaciar)</p>
+              <p onclick="limpiarConsola()" style="cursor: pointer">&#8634;</p>
             </div>
             <hr />
             <div id="consoleOutput"></div>
@@ -94,6 +112,7 @@
     </footer>
 
     <!-- archivos js -->
+    <script src="./assets/chatgpt.js"></script>
     <script src="./script.js"></script>
   </body>
 </html>
