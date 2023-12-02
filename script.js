@@ -1,6 +1,5 @@
 /*** Algoritmo con un condicional ***/
 document.getElementById("c1").addEventListener("click", function () {
-  // EJECUTAR EL CÓDIGO A TRAVÉS DE UN ID (HECHO CON CHATGPT).
   alert("Atención. Este sitio es para mayores de 18 años.");
   const nombre = prompt("Ingrese su nombre.");
   const edad = parseInt(prompt("Ingrese su edad en números."));
