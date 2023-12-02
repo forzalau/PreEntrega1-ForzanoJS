@@ -1,5 +1,4 @@
-/***  COMIENZO DEL PROYECTO ***/
-
+/*** Algoritmo con un condicional ***/
 document.getElementById("c1").addEventListener("click", function () {
   // EJECUTAR EL CÓDIGO A TRAVÉS DE UN ID (HECHO CON CHATGPT).
   alert("Atención. Este sitio es para mayores de 18 años.");
@@ -14,6 +13,12 @@ document.getElementById("c1").addEventListener("click", function () {
   }
 });
 
+/*** Algoritmo utilizando un ciclo ***/
 document.getElementById("c2").addEventListener("click", function () {
+  codigo;
+});
+
+/*** Simulador interactivo ***/
+document.getElementById("c3").addEventListener("click", function () {
   codigo;
 });

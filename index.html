@@ -64,14 +64,22 @@
               </button>
             </div>
           </div>
-          <div class="d-flex justify-content-between mt-3">
+          <button
+            type="button"
+            class="btn btn-primary mt-3 mb-1"
+            style="width: 100%"
+            id="jscode"
+          >
+            Ver código completo
+          </button>
+          <div class="d-flex justify-content-between mb-3">
             <button
               type="button"
-              class="btn btn-primary me-1"
+              class="btn btn-danger me-1"
               style="width: 70%"
-              id="jscode"
+              id="jsgptcode"
             >
-              Ver código
+              Ver código hecho con ChatGPT 3.5
             </button>
             <button
               onclick="confirmDownload()"
@@ -82,14 +90,6 @@
               Descargar
             </button>
           </div>
-          <button
-            type="button"
-            class="btn btn-danger mt-1 mb-3"
-            style="width: 100%"
-            id="jsgptcode"
-          >
-            Ver código utilizado hecho con ChatGPT 3.5
-          </button>
         </div>
         <div class="col-md-6 mb-3">
           <div class="card card-console">
