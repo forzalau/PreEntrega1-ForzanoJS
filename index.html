@@ -16,7 +16,7 @@
   </head>
   <body>
     <header class="vcenter mb-3">
-      <img class="header-img" src="./assets/favicon.png" alt="JavaScript" />
+      <i class="fa-brands fa-square-js fa-2xl me-3" style="color: yellow"></i>
       <p>JavaScript comisión #61560 / PreEntrega 1 - Forzano Lautaro.</p>
     </header>
 
@@ -25,14 +25,17 @@
         <div class="col-md-6">
           <div class="card mb-3" data-bs-theme="dark">
             <div class="card-header fw-bold vcenter">
-              <div class="card-circle"></div>
+              <i
+                class="fa-solid fa-circle fa-xs me-2"
+                style="color: yellow"
+              ></i>
               <p>Algoritmo con un condicional</p>
             </div>
             <div class="card-body">
               <p class="card-text mb-3">
                 Simula el ingreso a un Simulador de plazos fijos. Pide nombre,
-                pin y en base a eso determina el acceso. Luego te da la opción
-                de simular uno el cuál estará disponible en el último ejercicio
+                pin y en base a eso determina el acceso, luego te da la opción
+                de simular uno, el cuál estará disponible en el último ejercicio
                 "Simulador interactivo".
               </p>
               <button type="button" class="btn btn-success" id="c1">
@@ -42,7 +45,10 @@
           </div>
           <div class="card mb-3" data-bs-theme="dark">
             <div class="card-header fw-bold vcenter">
-              <div class="card-circle"></div>
+              <i
+                class="fa-solid fa-circle fa-xs me-2"
+                style="color: yellow"
+              ></i>
               <p>Algoritmo utilizando un ciclo</p>
             </div>
             <div class="card-body">
@@ -54,7 +60,10 @@
           </div>
           <div class="card" data-bs-theme="dark">
             <div class="card-header fw-bold vcenter">
-              <div class="card-circle"></div>
+              <i
+                class="fa-solid fa-circle fa-xs me-2"
+                style="color: yellow"
+              ></i>
               <p>Simulador interactivo</p>
             </div>
             <div class="card-body">
@@ -79,7 +88,7 @@
               style="width: 70%"
               id="jsgptcode"
             >
-              Código ChatGPT 3.5
+              Código ChatGPT 3.5 <i class="fa-solid fa-code fa-xs"></i>
             </button>
             <button
               onclick="confirmDownload()"
@@ -94,8 +103,10 @@
         <div class="col-md-6 mb-3">
           <div class="card card-console">
             <div class="d-flex justify-content-between">
-              <p>- consola</p>
-              <p onclick="limpiarConsola()" style="cursor: pointer">&#8634;</p>
+              <p><i class="fa-solid fa-terminal"></i> <b>consola</b></p>
+              <p onclick="limpiarConsola()" style="cursor: pointer">
+                <i class="fa-solid fa-arrows-rotate"></i>
+              </p>
             </div>
             <hr />
             <div id="consoleOutput"></div>
@@ -107,11 +118,16 @@
     <footer>
       <!-- mi proyecto final de desarrollo web -->
       <a href="https://forzalau.github.io/preentrega3-forzano/" target="_blank"
-        >&#128498;</a
-      >
+        ><i class="fa-solid fa-bolt"></i
+      ></a>
     </footer>
     <!-- archivos js -->
     <script src="./assets/chatgpt.js"></script>
     <script src="./script.js"></script>
+    <!-- fontawesome iconos -->
+    <script
+      src="https://kit.fontawesome.com/9ba83664e2.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

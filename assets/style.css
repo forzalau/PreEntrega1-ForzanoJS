@@ -46,15 +46,6 @@ main {
   padding: 0 15px;
 }
 
-.card-circle {
-  background-color: yellow;
-  width: 10px;
-  height: 10px;
-  margin-right: 10px;
-  border-radius: 50%;
-  float: left;
-}
-
 .card-console {
   background-color: black;
   color: green;
