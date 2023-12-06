@@ -35,32 +35,9 @@ abrirJSGPT.addEventListener("click", function () {
   console.log("Archivo chatgpt.js abierto en una nueva pestaña.");
 });
 
-// CÓDIGO PARA DESCARGAR ARCHIVO .JS CON LA OPCIÓN DE CANCELAR LA DESCARGA (HECHO CON CHATGPT).
-function downloadFile() {
-  var link = document.createElement("a");
-  link.href = "assets/chatgpt.js";
-  link.download = "assets/chatgpt.js";
-  document.body.appendChild(link);
-  link.click();
-  document.body.removeChild(link);
-}
-
-function confirmDownload() {
-  var confirmation = confirm("¿Deseas descargar el archivo chatgpt.js?");
-
-  if (confirmation) {
-    downloadFile();
-    console.log("Archivo chatgpt.js descargado.");
-    alert("Descarga realizada con éxito.");
-  } else {
-    console.log("Descarga cancelada por el usuario.");
-    alert("Descarga cancelada con éxito.");
-  }
-}
-
 // EJECUTAR EL CÓDIGO A TRAVÉS DE UN ID (HECHO CON CHATGPT).
 /*
-  document.getElementById("ID ACÁ").addEventListener("click", function () {
-    (((CÓDIGO ACÁ)))
+  document.getElementById("ID").addEventListener("click", function () {
+    (CÓDIGO)
   });
 */
