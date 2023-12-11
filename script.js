@@ -1,4 +1,5 @@
 /*** Algoritmo con un condicional ***/
+alert("Ejercicio 1. Algoritmo con un condicional.");
 const nombre = prompt("Ingrese su nombre.");
 alert("Bienvenido " + nombre + " al simulador de plazos fijos.");
 console.log(nombre + " quiere ingresar al simulador de plazos fijos.");
@@ -27,6 +28,7 @@ if (pin === 6666) {
 }
 
 /*** Algoritmo utilizando un ciclo ***/
+alert("Ejercicio 2. Algoritmo utilizando un ciclo.");
 let continuar = true;
 do {
   const monto = parseInt(prompt("Ingrese un monto en números."));
@@ -43,6 +45,7 @@ do {
 } while (continuar);
 
 /*** Simulador interactivo ***/
+alert("Ejercicio 3. Simulador Interactivo.");
 const nombreSi = prompt("Ingrese su nombre.");
 alert("Bienvenido " + nombreSi + " al simulador de plazos fijos.");
 console.log(nombreSi + " quiere ingresar al simulador de plazos fijos.");
